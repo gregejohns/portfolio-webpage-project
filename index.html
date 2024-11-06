@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mr. Greg Johns - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Greg Johns
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          greg@myemailaddress.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +865-999-0000
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="Skills">Skills</a>
+          <a class="topmenu" href="Projects">Projects</a>
+          <a class="topmenu" href="Recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://media.istockphoto.com/id/482723401/photo/studious-pup.jpg?s=1024x1024&w=is&k=20&c=FdMCQZdjddc-jo6yWyQCWBjFMKWYFMyg3e4p6JYxKY8=" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Greg Johns! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a fluffy dog who loves to crunch bones...arf!, I mean, data. I thoroughly enjoy
+            a good belly rub...arf!, I mean water bowl lapping...arf!, I mean creating databases 
+            and scripts via dog treats...arf!, I mean python. I'm a beginner, but still having fun
+            chewing at those fleas...arf!, I mean learning while I fail! I'm a good boy!
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="html_finalprojimages/dog-2008331_960_720.jpg"/>
+            <h6>Playing Dead</h6>
+            <p>4.5 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="html_finalprojimages/dog-sleep_102126.jpg"/>
+            <h6>Snoozing</h6>
+            <p>4.5 years EXPERT experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="html_finalprojimages/image-51133-800.jpg"/>
+            <h6>Knawing Specialist</h6>
+            <p>"I NEVER Chew On Anything"</p>
+          </div>  
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Couch Cushion</h3>
+            <ul>
+              <li>In short order, while my people were out, I chewed through the most gigantic pillow resting on the armchair in the living room. Yum!</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Outside Bathroom</h3>
+            <ul>
+              <li>I haven't used the bathroom inside since my third week at my people's house. I always use the yard. Always.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Squirrel Catcher</h3>
+            <ul>
+              <li>I have caught two squirrels in my people's yard. It's their yard, not the squirrels. Squirrels will never win!</li>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I have known many dogs in my days as the neighborhood cat. I've never seen a dog quite as stupid
+          as this one. All he does is bark at his reflection in the living room window. And, get this, I've seen 
+          him chase his own butt for, like, 30 minutes at a time. Come on, people! Get a cat already.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          As the resident iguana, I can say that this dog is about as faithful as a pet should be. 
+          He barks when a stranger approaches, greets his humans accordingly, and never pees on the floor.
+          Top-notch. Definitely.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          As the ghost of the former dog, I can say this dog will do. He's nothing special and 
+          definitely cannot fetch a ball as good as I could...though, I do suppose my narrow focus 
+          on the ball is what landed me in front of the moving truck in the street.
+          He's an okay dog. I guess.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Add Recommendation</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving feedback, unless you are that dang squirrel!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
